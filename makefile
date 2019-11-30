@@ -13,11 +13,11 @@ EXEFS_SRC := exefs_src
 # ICON is the filename of the icon (.jpg), relative to the project folder.
 
 
-APP_TITLE := Postal
+APP_TITLE := Postal-NX
 APP_DESCRIPTION := Postal
 APP_AUTHOR := MVG
-APP_VERSION := 1.0.0
-ICON := res/postal.jpg
+APP_VERSION := 1.0.1
+ICON := res/postal.png
 
 
 ifeq ($(strip $(DEVKITPRO)),)
