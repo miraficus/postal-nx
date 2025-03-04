@@ -254,8 +254,8 @@ extern int32_t rspGetToggleKeyStates(void);	// Returns toggle key state flags
 #define RSP_JOY_BUT_13			0x00001000
 #define RSP_JOY_BUT_14			0x00002000 
 #define RSP_JOY_BUT_15			0x00004000
-#define RSP_JOY_BUT_16			0x00008000
-#define RSP_JOY_BUT_17			0x00010000
+#define RSP_JOY_BUT_16			0x00008
+#define RSP_JOY_BUT_17			0x0001
 #define RSP_JOY_BUT_18			0x00020000
 #define RSP_JOY_BUT_19			0x00040000
 #define RSP_JOY_BUT_20			0x00080000
