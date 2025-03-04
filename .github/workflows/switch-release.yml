@@ -59,7 +59,7 @@ jobs:
           DRAFT: ${{ inputs.create_release }}
           GAME_VERSION: ${{ inputs.game_version }}
         with:
-          tag_name: ${{ env.GAME_VERSION }}-${{ github.run_number }}
+          tag_name: ${{ env.GAME_VERSION }}
           name: Postal-NX ${{ env.GAME_VERSION }}-${{ github.run_number }}
           files: postal.nro
           token: ${{ secrets.GITHUB_TOKEN }}
