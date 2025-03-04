@@ -65,7 +65,7 @@ jobs:
       - name: Release
         uses: softprops/action-gh-release@v1
         env:
-          DRAFT: ${{ inputs.create_release }}
+          DRAFT: ${{ inputs.draft_release }}
           GAME_VERSION: ${{ inputs.game_version }}
         with:
           tag_name: ${{ env.GAME_VERSION }}
