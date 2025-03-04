@@ -1,9 +1,6 @@
 name: switch-release
 
 on:
-  push:
-    tags:
-      - "v*.*"
   workflow_dispatch:
     inputs:
       upload_artifact:
